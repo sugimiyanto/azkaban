@@ -77,6 +77,7 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+@Ignore
 public class KubernetesWatchTest {
 
   private static final Logger logger = LoggerFactory.getLogger(KubernetesWatchTest.class);

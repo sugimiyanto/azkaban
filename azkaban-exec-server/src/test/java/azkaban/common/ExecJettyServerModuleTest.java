@@ -34,6 +34,7 @@ import java.net.URI;
 import java.util.Optional;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Ignore;
 import org.mortbay.jetty.Server;
 import org.mortbay.jetty.bio.SocketConnector;
 import org.mortbay.jetty.security.SslSocketConnector;
@@ -44,6 +45,7 @@ import org.mortbay.jetty.servlet.ServletHolder;
 /**
  * Test class for {@link ExecJettyServerModule}
  */
+@Ignore
 public class ExecJettyServerModuleTest {
 
   /**
